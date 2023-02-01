@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  z-index: 10;
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 2%;
+}
+
+#shoppingHeader {
+  margin-right: auto;
+}
+
+#homeHeader {
+  margin-left: auto;
+  margin: 1.5%;
+}
+
+#cartHeader {
+  margin: 1.5%;
+}
+
+.homePage {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin-left: 4%;
+}
+
+.cartPage {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0%;
+  width: 99%;
+  height: auto;
+}
+.cardDetails{
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.checkoutCards {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 69%;
+  height: auto;
+}
+
+.checkoutList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1%;
+  margin-left: 2%;
+  justify-content:left;
+  align-items: flex-start;
+  width: 25%;
+  height: min-content;
+  color: white;
+  background-color: black;
+  padding: 2%;
+}
+
+.allItemsHeading {
+  display: flex;
+  margin: 2%;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.removebtn {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 2%;
+}
+
+.headingCheckout {
+  display: flex;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  padding: 0;
+  justify-content: center;
+  height: 3%;
+  width: 100%;
+  font-size: larger;
+}
+
+.headingCheckoutListDetails {
+  display: flex;
+  margin-top: 5%;
+  padding-top: 2%;
+  justify-content: center;
+  height: 3%;
+  width: 100%;
+  font-size: larger;
+}
+
+.total {
+  display: flex;
+  margin-top: 5%;
+  padding-left: 5%;
+  height: 3%;
+  width: 50%;
+  font-size: larger;
+}
+
+hr.new1 {
+  display: flex;
+  width: 100%;
+  border: 2px solid white;
+  margin-top: 5%;
+}
+
+#amount {
+  margin-left: 100%;
+}
+#totalprice {
+  margin-left: 85%;
+}
+
+.image{
+  height: 350px;
+  width: 300px;
+}
+
+.price,.title{
+  text-align: left;
+  font-size: larger;
+  justify-content: space-between;
+  margin: auto;
+  padding:15px;
+}
+
+.btn{
+  color: black;
+  background-color: white;
+  width: 100%;
+  padding: 2%;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: large;
+  margin-top: 10%;
+}
