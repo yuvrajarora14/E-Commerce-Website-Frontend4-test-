@@ -1,0 +1,23 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: sticky;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    margin-right:20px;
+     flex-wrap:wrap ;
+}
+.home{
+    margin-right: 30px;
+    flex-wrap:wrap ;
+
+}
